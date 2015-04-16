@@ -1,0 +1,2 @@
+#!/bin/bash
+mocha -u bdd -R spec -t 1000 --compilers coffee:coffee-script/register --recursive tests/*.coffee
