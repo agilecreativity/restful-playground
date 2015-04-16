@@ -11,15 +11,18 @@ mkdir -p ~/codes && cd ~/codes
 git clone git@github.com:agilecreativity/restful-playground.git
 cd ~/codes/restful-playground
 npm install
+```
 
-# Create the sample seed file
+- Now open a new terminal and inside it create the sample database with `seeds.coffee`
+
+```shell
 coffee ./seeds.coffee
+```
 
-# Run the server and see
+- Now in a new terminal start the server
+
+```shell
 ./run-server
-
-# Or if using Gulp
-gulp
 ```
 
 - Then open your browser to [http://localhost:3000/api/books](http://localhost:3000/api/books)
@@ -41,4 +44,6 @@ gulp test
 - Make `gulpfile.js` work with CoffeeScript
 - Remove all of the `*.js` file
 
-## Links
+## Useful Links
+
+- https://github.com/tj/node-migrate
