@@ -1,7 +1,6 @@
 express = require 'express'
 
 routes = (Book) ->
-  console.log "FYI: book is",Book
   BookRouter = express.Router()
   BookController = require('../controllers/book_controller')(Book)
 
