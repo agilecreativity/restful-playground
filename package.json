@@ -14,7 +14,7 @@
     "mocha": "^2.2.4",
     "mocha-mongoose": "^1.0.4",
     "mongodb": "^1.4.35",
-    "mongoose": "^4.0.1",
+    "mongoose": "^5.7.8",
     "should": "^5.2.0",
     "sinon": "^1.14.0"
   },
